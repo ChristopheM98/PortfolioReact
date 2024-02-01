@@ -1,0 +1,122 @@
+/*NAVBAR*/
+.navbar {
+    background: rosybrown;
+    border-radius: 15px;
+}
+
+.navbar a {
+    color: white;
+    font-size: larger;
+}
+
+/*HOME*/
+.imageSlider {
+    display: flex;
+    overflow: hidden;
+    min-width: 100vw;
+    max-height: 43vw;
+    margin: 0 auto;
+    position: relative;
+
+    & img {
+        position: relative;
+        left: 0;
+        min-width: 100vw;
+        top: 50%;
+
+    }
+}
+
+.circlesCarousel {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    left: 48%;
+}
+
+.buttonLeft {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(40, 44, 52, 50%);
+    border-radius: 50%;
+    color: white;
+    font-size: 2em;
+    border: unset;
+    cursor: pointer;
+    z-index: 5;
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+}
+
+.buttonRight {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(40, 44, 52, 50%);
+    border-radius: 50%;
+    color: white;
+    font-size: 2em;
+    border: unset;
+    cursor: pointer;
+    z-index: 5;
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+}
+
+.textblock {
+    width: 70%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+/*ERVARING*/
+.checksErvaring {
+    margin: 15px;
+    text-align: center;
+}
+
+Tbody > Tr:hover {
+    background-color: #C6F6D5;
+    color: #276749;
+}
+
+/*CONTACT*/
+.gridContact {
+    width: 80%;
+    margin: auto;
+}
+
+.btnContact {
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+}
+
+/*ACCORDION COMPONENT*/
+.accordion {
+    background: #C6F6D5;
+    border-radius: 10px;
+    font-family: Oblique, Verdana, serif, sans-serif;
+    color: #276749;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.accordion-item .chevron {
+    float: right;
+    font-size: 180%;
+}
+
+.accordion-item .content {
+    display: block;
+    clear: both;
+    padding: .2em;
+}
